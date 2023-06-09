@@ -7,7 +7,7 @@ local actions = {'ALL NOTES OFF (K3)'}
 local selected_action = 1
 local show_panicking = false
 
-mod.hook.register("script_pre_init", "midi-controls-init", function()
+mod.hook.register("script_pre_init", "midi-control-init", function()
   selected_port = 1
   selected_action = 1
   device_names = {}
